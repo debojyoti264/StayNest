@@ -11,7 +11,7 @@
 
 ## 📸 Screenshots
 
-<img src="homepage.png" width="800" alt="StayNest Homepage">
+<img src="Homepage.png" width="800" alt="StayNest Home Page">
 
 <img src="admin center.png" width="800" alt="StayNest Admin Center">
 
