@@ -11,8 +11,9 @@
 
 ## 📸 Screenshots
 *(Drag and drop your screenshots directly into the GitHub editor to replace these lines)*
-- **[Insert Home Page Screenshot Here]**
-- **[Insert Admin Dashboard Screenshot Here]**
+<img src="homepage.png" width="800" alt="StayNest Home Page">
+
+<img src="admin center.png" width="800" alt="StayNest Admin Center">
 
 ## 💻 Tech Stack
 * **Frontend:** React.js, JavaScript (ES6+), CSS3 (Flexbox/Grid)
