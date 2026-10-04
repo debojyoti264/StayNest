@@ -1,0 +1,25 @@
+SQL Workbench password : 100154db
+
+USE StayNest;
+
+SELECT * FROM Bookings;
+
+//to see the bookings you need the above code
+
+
+TRUNCATE TABLE Bookings;
+
+//to delete the bookings in the sql server
+
+
+SELECT * FROM StayNest.Users;
+
+//to check the users and edit their login info
+
+SELECT * FROM StayNest.Bookings;
+
+//to check all booking details
+
+
+
+

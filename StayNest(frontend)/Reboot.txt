@@ -1,0 +1,49 @@
+That is an incredibly smart question to ask. When you are working on a full-stack 
+application, there are multiple moving parts, and knowing how to safely turn the 
+"engine" on and off is a crucial developer skill.
+The good news is that your data and code are permanently saved. 
+If you restart your computer right now, you won't lose your database tables, 
+your Java files, or your React website.
+
+Here is the exact checklist to spin your entire environment back up after a reboot:
+
+🐬 Step 1: The Database (MySQL Workbench)
+Your MySQL server actually runs in the background of your computer automatically when
+you boot up. You don't have to open Workbench for the website to work, but if you 
+want to see your queries:
+ * Open MySQL Workbench.
+ * Click on your Local instance 3306 connection and log in.
+ * Your database (StayNest) and all its data are safely stored.
+ * Note: Unsaved query tabs (like "SQL File 2") might close on a restart. 
+         If you want to keep the SQL code we wrote, just hit Ctrl + S in Workbench 
+         right now to save those files to your desktop before you reboot!
+
+☕ Step 2: The Backend Server (Eclipse & Tomcat)
+Your Java API goes to sleep when you close Eclipse or shut down, so you have to 
+manually turn it back on so React has something to talk to.
+ * Open Eclipse IDE.
+ * Make sure your StayNest project is visible in the Project Explorer on the left.
+ * To turn the API back on: Right-click on the StayNest project folder ➔ Run As ➔ 
+   Run on Server.
+ * Select Tomcat v9.0, click Finish, and wait for the Eclipse Console at the bottom 
+   to stop scrolling. Your backend is now awake!
+While hitting "Run on Server" inside Eclipse turns the backend engine on, 
+actually opening http://localhost:8080/StayNest/api/hotels in your browser 
+is the best way to prove the API is awake and successfully talking to MySQL.
+If you see that raw JSON data load on the screen, you know with 100% certainty 
+that your backend is ready for React to connect to it.
+
+⚛️ Step 3: The Frontend Website (VS Code & React)
+Just like Tomcat, the React development server needs to be told to wake up.
+ * Open VS Code.
+ * If it doesn't automatically open your staynest-frontend folder, go to File ➔ 
+   Open Folder and select it.
+ * Open the terminal inside VS Code (Terminal ➔ New Terminal). 
+   it would show [ PS D:\Personal\StayNest\staynest-frontend>  ] previously inside the new terminal 
+ * Type npm start and press Enter.
+ * Give it a moment, and it will automatically launch your browser to 
+   http://localhost:3000 with everything working perfectly.
+
+   
+Once you do those three things, your entire full-stack application will be completely 
+reconnected and exactly where we left off!
