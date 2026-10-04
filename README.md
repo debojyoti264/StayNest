@@ -11,7 +11,9 @@
 
 ## 📸 Screenshots
 
+<img src="homepage.png" width="800" alt="StayNest Home Page">
 
+<img src="admincenter.png" width="800" alt="StayNest Admin Center">
 
 ## 💻 Tech Stack
 * **Frontend:** React.js, JavaScript (ES6+), CSS3 (Flexbox/Grid)
