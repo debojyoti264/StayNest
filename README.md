@@ -10,8 +10,8 @@
 * **Optimized Database:** Fully normalized MySQL relational database utilizing `JOIN` queries and `TIMESTAMP` tracking for maximum data integrity.
 
 ## 📸 Screenshots
-*(Drag and drop your screenshots directly into the GitHub editor to replace these lines)*
-<img src="homepage.png" width="800" alt="StayNest Home Page">
+
+<img src="homepage.png" width="800" alt="StayNest Homepage">
 
 <img src="admin center.png" width="800" alt="StayNest Admin Center">
 
